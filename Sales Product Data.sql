@@ -16,9 +16,6 @@ CREATE TABLE Sales_2019
 
 
 
-drop table Sales_2019
-
-
 -- Combine data from multiple monthly sales tables and insert it into the consolidated "Sales_2019" table.
 insert into  Sales_2019 
 select *
